@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(#FCC8D1, #D14D72);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+#countdown {
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #322653;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    bottom: 60%;
+    margin:0;
+}
+
+#myButton {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #322653;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    color: #FDE5EC;
+    display: none;
+    font-weight: bold;
+}
+
+#myButton:hover {
+    color: #322653;
+    background: #FDE5EC;
+    border: solid 2px #322653;
+}
+
+@media all and (max-width: 600px) {
+    #countdown {
+        font-size: 70px;
+        top: 35%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #myButton {
+        display: block;
+        position: fixed;
+        top: 50%;
+      font-size: 24px;
+    }
+
+    #countdown {
+        font-size: 70px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    #myButton {
+        font-size: 22px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    #countdown {
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    #myButton {
+        font-size: 20px;
+    }
+  
+      #countdown {
+        font-size: 50px;
+    }
+}
