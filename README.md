@@ -4,6 +4,10 @@
 
 Challenge timer is a web application, which you can use to turn on one of the timers from 5 to 25 minutes to train and accomplish your task within the set timer time.
 
+## What is it made with?
+
+JavaScript, HTML, CSS.
+
 ## Installation
 
 To view and use the web app click this link: https://denim-surf-diver.glitch.me.
