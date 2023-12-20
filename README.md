@@ -1,8 +1,9 @@
 # Challenge timer
-
 ## About
 
 Challenge timer is a web application, which you can use to turn on one of the timers from 5 to 25 minutes to train and accomplish your task within the set timer time.
+
+<img width="1440" alt="Снимок экрана 2023-12-20 в 15 24 44" src="https://github.com/elvina-s/timer/assets/149134113/34e9b5c8-4d11-4766-ac1a-f6a894f0e5b5">
 
 ## What is it made with?
 
